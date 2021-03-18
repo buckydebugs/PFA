@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualing pathfinding Algorithms</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styling/style.css">
+
+
+</head>
+
+<body>
+    <div id='navbarDiv'>
+        <nav class=" navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a id="refreshbutton" class="navbar-brand" href="#"> Home</a>
+                </div>
+                <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Algorithms<span class="caret"></span>
+                        </a>
+                        <ul>
+                            <div class="dropdown-menu">
+                                <li id="Dijkstra">
+                                    <a href="#">Dijkstra's Algorithm (Grandfather of all searching Algorithms)</a>
+                                </li>
+                                <li id="Astar">
+                                    <a href="#">A* Search</a>
+                                </li>
+                                <li id="greedy">
+                                    <a href="#">Greed Best-first Search</a>
+                                </li>
+                                <li id="swarm">
+                                    <a href="#">Swarm Algorithm </a>
+                                </li>
+                                <li id="CSwarm">
+                                    <a href="#">Convergent-Swarm Algorithm</a>
+                                </li>
+                                <li id="BSwarm">
+                                    <a href="#">Bidirectional-Swarm Algorithm</a>
+                                </li>
+                                <li id="BFS">
+                                    <a href="#">Breath-first Search</a>
+                                </li>
+                                <li id="DFS">
+                                    <a href="#">Depth-first Search</a>
+                                </li>
+                    </li>
+                </ul>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patterns and Mazes
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id="maze2-RD">
+                            <a href="#">Recursive Division</a>
+                        </li>
+                        <li id="maze3-RDV">
+                            <a href="#">Recursive Division (vertical Skew)</a>
+                        </li>
+                        <li id="maze4-RDH">
+                            <a href="#">Recursive Division (horizontal Skew</a>
+                        </li>
+                        <li id="maze1-Basicrandommaze">
+                            <a href="#">Basic Random Maze</a>
+                        </li>
+                        <li id="mazeweights">
+                            <a href="#">Basic Weight Maze</a>
+                        </li>
+                        <li id="Stairpattern">
+                            <a href="#">Simple Stair Patternn</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="AddBomb"><a href="#">Add Bomb</a></li>
+                <li class="dropdown">
+                    <a id="SpeedAjustor" class="dropdown-toggle" data-toggle="dropdown" href="#">Speed:Medium <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li id="SpeedFast"><a href="#">Fast</a></li>
+                        <li id="SpeedMedium"><a href="#">Medium</a></li>
+                        <li id="SpeedSlow"><a href="#">Slow</a></li>
+
+                    </ul>
+                </li>
+
+                <li id="ClearBoard"><a href="#">Clear Board</a></li>
+                <li id="ClearWalls"> <a href="#">Clear Walls and Weights</a></li>
+                <li id="ClearPath"><a href="#">Clear Path</a></li>
+
+                <li id="startbutton"><button id="MainButton" class="btn btn-default navbar-btn"
+                        type="button">Visualize!</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="list-inline">
+        <div id="list-inline">
+
+
+            <ul>
+                <li>
+                    Starting point
+                </li>
+                <li>
+                    Destinationn
+
+                </li>
+                <li>
+                    Bomb
+                </li>
+                <li>
+                    weights
+                </li>
+                <li>
+                    not visited
+                </li>
+                <li>
+                    visited
+                </li>
+                <li>
+                    shortest pathfinding
+
+                </li>
+                <li>
+                    wall
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    Use <kbd>W</kbd> to add walls
+
+
+</body>
+
+</html>
